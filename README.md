@@ -6,7 +6,7 @@ A collection of page methods for Kirby 3.
 ## Usage example for `getPrev()`/`getNext()`
 
 
-```
+```php
 <?php $collection = $page->siblings()->filterBy('template', 'article') ?>
 
 <?php if ($collection->isNotEmpty()) : ?>
